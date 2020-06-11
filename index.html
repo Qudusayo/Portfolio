@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-126975503-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126975503-4');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
+    />
+    <meta
+      name="description"
+      content="Qudusayo Portfolio Site"
+    />
+    <meta name="author" content="Qudusayo />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Qudusayo</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <h2>Qudusayo</h2>
+        <input type="checkbox" class="switcher" id="menu">
+        <label class="open" for="menu">
+            <i class="fa fa-bars"></i>
+        </label>
+
+        <nav>
+            <ul id="menu">
+                <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+                <li data-menuanchor="About"><a href="#About">About Me</a></li>
+                <li data-menuanchor="Skills"><a href="#Skills">Skills</a></li>
+                <li data-menuanchor="Works"><a href="#Works">Works</a></li>
+                <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+            </ul>
+
+
+            <label class="close" for="menu">
+                <i class="fa fa-times"></i>
+            </label>
+        </nav>
+    </header>
+    <div id="pagepiling">
+        <div class="section pp-scrollable home" id="section1">
+            <h1 class="header">
+                Hi there! <span class="yellow">👋</span>,<br />
+                <span id="bigger">
+                    I'm <span id="qudusayo"></span>,<br />
+                </span>
+            </h1>
+            <div class="flex">
+                <h1 class="typer">A <span id="word"></span><span class="spaner blink">|</span> DEVELOPER</h1>
+            </div>
+            <img src="./assets/images/code.png" alt="">
+        </div>
+
+        <div class="section pp-scrollable about" id="section2">
+            <div class="container">
+                <img src="./assets/images/about-us.png" alt="">
+                <div class="content">
+                    <h1>About Me</h1>
+                    I'm <b>Qudusayo</b> , a fullstack developer.<br />
+                    I build stuffs with React and SCSS mostly<br />
+                    I loved algorithms and data structure due to my passion for mathematics. I do take challenges in
+                    some sites, so I prefer <a href="https://codility.app" target="_blank">Codility</a> over <a
+                        href="https://hackerrank.com" target="_blank">Hackerrank</a> because <a
+                        href="https://codility.app" target="_blank">Codility</a> challenges with time and gives solution
+                    result in percentage due to the time complexity and test passed by the code.
+                    <a type="button" class="btn btn-primary" href="https://qudusayoblog.netlify.app/about" target="_blank" rel="noopener noreferrer">Read All On Blog</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section pp-scrollable skills" id="section3">
+            <h1>My Skills</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>REACTJS</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                70%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>REDUX</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                75%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>GATSBY</h4>
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>JAVASCRIPT</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>GIT</h4>
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>NPM & HEROKU</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>NODEJS & EXPRESS</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>HTML5</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                                aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                90%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>CSS3</h4>
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                                aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                85%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>SCSS</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                85%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 m-auto">
+                        <h4>MYSQL</h4>
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 m-auto">
+                        <h4>MONGODB</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                50%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section pp-scrollable works" id="section4">
+            <h1>My Works</h1>
+            <div class="container">
+                <h3 class="carddTitle">IN  48HRS</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/in48hrs.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">MY BLOG</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/myblog.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">CORONA TRACK</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/corona.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">EMAGIX</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/emagix.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">MAIL ME</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/mailqudusayo.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">DAILY UI</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/dailyUi.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">QUOTES</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/randomgene.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        This very website you're now watching. I wanted something fast and with good SEO for my
+                        portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data
+                        from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                        developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or
+                        light design.
+                        <h4>REACT - STYLED COMPONENTS - GATSBY</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="carddTitle">CODEPEN</h3>
+                <div class="cardd">
+                    <img class='cardImg ord2' src="./assets/images/codepen.PNG" alt="Logo" />
+                    <div class='aboutCard ord1'>
+                        I got some works i posted  on <a href="https://codepen.io">Codepen</a>. Some  are there  for fun, like my DUO BIRD, and  some  are  there for  real web work  like  the auto weather detector  which dosent rely on   the geolocation, but auto  tracks  you and  determine your location  in order  to  determine the weather of  your area perfectly.
+
+                        <h4>CODEPEN - FUN - HTML  -  JS  - REACT</h4>
+                        <div class="cardMedia">
+                            <Button>
+                                <i class="fa fa-link Mediaicons" /></i>Visit
+                            </Button>
+                            <Button type="Buttonopen">
+                                <i class="fa fa-github Mediaicons" /></i>Source
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section pp-scrollable slide contact" id="section5">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <div class="col-md-5 m-auto texts">
+                    <b>You can notify me to help any time, I will always be ready to hook up with you anytime required
+                        .</b><br><br>
+
+                    <p>If you want to talk to me,<br /> You can find me at:</p>
+                    <p><span>
+                            <i class="fa fa-envelope"></i>qqudusayo@gmail.com
+                        </span></p>
+                    <p><span>
+                            <i class="fa fa-phone"></i> +2347016412041
+                        </span></p>
+                    <p><span>
+                            <i class="fa fa-map-marker"></i> Ibadan, Nigeria
+                        </span></p>
+                    <p><span class="media">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-github"></i>
+                            <i class="fa fa-globe"></i>
+                            <i class="fa fa-envelope"></i>
+                        </span></p>
+                    <p><span>
+
+                        </span></p>
+                </div>
+                <div class="col-md-5 m-auto">
+                    <p>Or send Quick message: </p>
+                    <form action="#">
+                        <input placeholder="Message Qudusayo" name="name" type="text">
+                        <input placeholder="I Loved This" type="text">
+                        <input placeholder="example@gmail.com" type="email">
+                        <textarea placeholder="I Love You" id="" cols="30" rows="10"></textarea>
+                        <button>Send <i class="fa fa-send"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/typer.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            /*
+            * Plugin intialization
+            */
+            $('#pagepiling').pagepiling({
+                direction: 'horizontal',
+                menu: '#menu',
+                verticalCentered: false,
+                anchors: ['Home', 'About', 'Skills', 'Works', 'Contact'],
+                sectionsColor: ['#f3f3f3', '#f8f8f8', '#f3f3f3', '#d8d8d8', '#f3f3f3'],
+                navigation: {
+                    'position': 'left',
+                    'textColor': '#000',
+                    'bulletsColor': '#123',
+                    'tooltips': ['Home', 'About', 'Skills', 'Works', 'Contact']
+                },
+                scrollingSpeed: 1200,
+                easing: 'swing',
+                afterRender: function () {
+                    $('#pp-nav').addClass('custom');
+                },
+                afterLoad: function (anchorLink, index) {
+                    if (index > 1) {
+                        $('#pp-nav').removeClass('custom');
+                    } else {
+                        $('#pp-nav').addClass('custom');
+                    }
+                }
+            });
+
+            $('#showExamples').click(function (e) {
+                e.stopPropagation();
+                e.preventDefault();
+                $('#examplesList').toggle();
+            });
+
+            $('html').click(function () {
+                $('#examplesList').hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

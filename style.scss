@@ -14,6 +14,8 @@ body {
 
 .section {
 	width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
 }
 
 *,
@@ -22,9 +24,6 @@ body {
 	font-family: "Nunito";
 }
 
-body {
-	background-color: red;
-}
 .about,
 .works,
 .skills {
@@ -35,7 +34,7 @@ body {
 	width: 10px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
 	background-color: #089;
 	border-radius: 15px;
 }
@@ -89,24 +88,6 @@ body {
 	}
 }
 
-@media  screen and (max-width: 320px){
-	.home{
-		.header{
-			font-size: 1em;
-		}
-
-		img{
-			top: 60%;
-		}
-
-		.flex{
-			.typer{
-				font-size: 1em;
-			}
-		}
-	}
-}
-
 .about {
 	padding-bottom: 10%;
 	min-height: 100vh;
@@ -137,11 +118,11 @@ body {
 	}
 }
 
-.skills{
+.skills {
 	padding-bottom: 10%;
 
-	.row{
-		h4{
+	.row {
+		h4 {
 			margin-top: 10%;
 		}
 	}
@@ -326,13 +307,14 @@ body {
 			display: block;
 			width: 90%;
 			margin: 0 auto;
-	
+
 			div {
 				width: 80%;
 				margin: 0 auto;
 			}
-	
+
 			img {
+				display: block;
 				margin: 0 auto;
 				width: 50vh;
 				height: 50vh;
@@ -365,6 +347,58 @@ body {
 					width: 100%;
 					justify-content: space-around;
 				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 580px) {
+	.home {
+		.header {
+			font-size: 1.7em;
+		}
+
+		img {
+			display: block;
+			top: 60%;
+			position: absolute;
+			width: 70vw;
+			height: 70vw;
+		}
+
+		.flex {
+			.typer {
+				font-size: 1em;
+			}
+		}
+	}
+
+	.about {
+		.container {
+			img {
+				display: block;
+				margin: 0 auto;
+				width: 45vh;
+				height: 50vh;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.home {
+		.header {
+			font-size: 1em;
+		}
+
+		img {
+			top: 60%;
+		}
+
+		.flex {
+			.typer {
+				font-size: 1em;
 			}
 		}
 	}

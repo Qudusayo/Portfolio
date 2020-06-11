@@ -15,16 +15,14 @@ body {
 
 .section {
   width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 *,
 html,
 body {
   font-family: "Nunito";
-}
-
-body {
-  background-color: red;
 }
 
 .about,
@@ -89,18 +87,6 @@ body {
 
 .home .flex .typer .blink {
   animation: blink 0.5s infinite;
-}
-
-@media screen and (max-width: 320px) {
-  .home .header {
-    font-size: 1em;
-  }
-  .home img {
-    top: 60%;
-  }
-  .home .flex .typer {
-    font-size: 1em;
-  }
 }
 
 .about {
@@ -321,6 +307,7 @@ body {
     margin: 0 auto;
   }
   .about .container img {
+    display: block;
     margin: 0 auto;
     width: 50vh;
     height: 50vh;
@@ -345,5 +332,39 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .home .header {
+    font-size: 1.7em;
+  }
+  .home img {
+    display: block;
+    top: 60%;
+    position: absolute;
+    width: 70vw;
+    height: 70vw;
+  }
+  .home .flex .typer {
+    font-size: 1em;
+  }
+  .about .container img {
+    display: block;
+    margin: 0 auto;
+    width: 45vh;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home .header {
+    font-size: 1em;
+  }
+  .home img {
+    top: 60%;
+  }
+  .home .flex .typer {
+    font-size: 1em;
   }
 }

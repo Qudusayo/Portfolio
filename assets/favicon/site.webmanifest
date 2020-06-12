@@ -1,8 +1,8 @@
 {
-    "Scope": "/",
-    "start_url": "/",
     "name": "Qudusayo",
     "short_name": "Qudusayo",
+    "Scope": "/",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

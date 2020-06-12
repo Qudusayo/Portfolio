@@ -28,14 +28,15 @@ body {
 .works,
 .skills {
 	padding-top: 100px;
+	padding-bottom: 14%;
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #089;
+	background-color: #089eca;
 	border-radius: 15px;
 }
 
@@ -120,6 +121,9 @@ body {
 
 .skills {
 	padding-bottom: 10%;
+	h1{
+		text-align: center;
+	}
 
 	.row {
 		h4 {
@@ -232,6 +236,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 
+	h1{
+		text-align: center;
+	}
+
 	.container {
 		border: 1px solid #909090;
 		border-radius: 20px;
@@ -322,6 +330,16 @@ body {
 		}
 	}
 
+	.skills {
+
+		.row {
+			.col-md-5{
+				width: 90%;
+			}
+		}
+	}
+	
+
 	.works {
 		.container {
 			.cardd {
@@ -352,6 +370,31 @@ body {
 	}
 }
 
+.works, .skills, .contact{
+	h1{
+		border-bottom: 20px  groove;
+		border-radius: 20px;
+		border-color: #089eca;
+		width: max-content;
+		margin: 0 auto;
+		text-align: left;
+	}
+}
+
+.about{
+	h1{
+		border-bottom: 10px groove;
+		width: 90%;
+		margin: 5% 0 ;
+		text-align: left;
+	}
+}
+
+.contact{
+	h1{
+		margin-bottom: 5%;
+	}
+}
 
 @media screen and (max-width: 580px) {
 	.home {

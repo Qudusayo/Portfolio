@@ -1,11 +1,4 @@
-@font-face {
-	font-family: "Nunito";
-	src: url("../assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype");
-}
-@font-face {
-	font-family: "Nuito Bold";
-	src: url("../assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 
 body {
 	margin: 0;
@@ -21,7 +14,7 @@ body {
 *,
 html,
 body {
-	font-family: "Nunito";
+	font-family: 'Rubik', sans-serif;
 }
 
 .about,
@@ -80,7 +73,7 @@ body {
 			color: #444;
 			padding: 0.1em;
 			font-size: x-large;
-			font-family: Nunito;
+			font-family: 'Rubik', sans-serif;
 
 			.blink {
 				animation: blink 0.5s infinite;
@@ -214,7 +207,7 @@ body {
 				padding: 10px 0;
 				font-size: large;
 				text-transform: uppercase;
-				font-family: Nunito;
+				font-family: 'Rubik', sans-serif;
 				letter-spacing: 5px;
 				cursor: pointer;
 				box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
@@ -296,7 +289,7 @@ body {
 					background-color: #089eca;
 					cursor: pointer;
 					border-radius: 50px;
-					font-family: Nunito;
+					font-family: 'Rubik', sans-serif;
 					padding: 5px 20px;
 					color: #ffffff;
 
